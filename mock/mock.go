@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/objx"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/internal/difflib"
-	"github.com/stretchr/testify/internal/spew"
+	"github.com/pb33f/testify/assert"
+	"github.com/pb33f/testify/internal/difflib"
+	"github.com/pb33f/testify/internal/spew"
 )
 
 // regex for GCCGO functions
