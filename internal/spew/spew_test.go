@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stretchr/testify/internal/spew"
+	"github.com/pb33f/testify/internal/spew"
 )
 
 // spewFunc is used to identify which public function of the spew package or

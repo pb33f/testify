@@ -67,7 +67,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/stretchr/testify/internal/spew"
+	"github.com/pb33f/testify/internal/spew"
 )
 
 // dumpTest is used to describe a test to be performed against the Dump method.

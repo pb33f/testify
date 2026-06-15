@@ -1,9 +1,9 @@
-// Code generated with github.com/stretchr/testify/_codegen; DO NOT EDIT.
+// Code generated with github.com/pb33f/testify/_codegen; DO NOT EDIT.
 
 package require
 
 import (
-	assert "github.com/stretchr/testify/assert"
+	assert "github.com/pb33f/testify/assert"
 	http "net/http"
 	url "net/url"
 	time "time"

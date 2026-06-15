@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/stretchr/testify/internal/spew"
+	"github.com/pb33f/testify/internal/spew"
 )
 
 // custom type to test Stinger interface on non-pointer receiver.
