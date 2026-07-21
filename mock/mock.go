@@ -637,7 +637,7 @@ func (m *Mock) AssertExpectations(t TestingT) bool {
 		satisfied, reason := m.checkExpectation(expectedCall)
 		if !satisfied {
 			failedExpectations++
-			t.Logf(reason)
+			t.Logf("%s", reason)
 		}
 	}
 
@@ -1075,7 +1075,7 @@ func (args Arguments) Assert(t TestingT, objects ...interface{}) bool {
 	}
 
 	// there are differences... report them...
-	t.Logf(diff)
+	t.Logf("%s", diff)
 	t.Errorf("%sArguments do not match.", assert.CallerInfo())
 
 	return false
