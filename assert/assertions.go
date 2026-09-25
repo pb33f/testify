@@ -17,7 +17,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	// Wrapper around go.yaml.in/yaml/v4
+	// Wrapper around github.com/pb33f/go-yaml
 	"github.com/pb33f/testify/assert/yaml"
 	"github.com/pb33f/testify/internal/difflib"
 	"github.com/pb33f/testify/internal/spew"
